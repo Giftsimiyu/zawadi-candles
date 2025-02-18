@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import heroimg7 from "../assets/images/heroimg7.jpg";
-import heroimg8 from "../assets/images/heroimg8.jpg";
+import Heroimg7 from "../assets/images/Heroimg7.jpg";
+import Heroimg8 from "../assets/images/Heroimg8.jpg";
 
 function Hero() {
-  const images = [heroimg7, heroimg8];
+  const images = [Heroimg7, Heroimg8];
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
